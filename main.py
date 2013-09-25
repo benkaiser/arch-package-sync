@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 # globals
-website = "http://xpressen.com/arch-sync/"
 website = "http://localhost:3000/arch-sync/"
 get_pacman_packages = 'pacman -Qqe | grep -vx "$(pacman -Qqm)"'
 get_aur_packages = 'pacman -Qqm'
